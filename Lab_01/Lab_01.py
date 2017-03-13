@@ -20,17 +20,11 @@ class LogParser:
         return result
 
     @staticmethod
-    def check_if_exist(file_object):
-        if not isfile(file_object):
-            print( "The following file doesn't exist" )
-            sys.exit( "Enter the correct name/path to the file" )
-
-    @staticmethod
     def get_parser():
         parser = argparse.ArgumentParser( description = "File path: " )
         parser.add_argument( "file_object", type = str )
         arg = parser.parse_args()
-        LogParser.check_if_exist( arg.file_object )
+        InputFileValidator.validate( arg.file_object )
         return arg.file_object
 
     @staticmethod
@@ -40,6 +34,13 @@ class LogParser:
                 result_file.write( line )
                 result_file.write( "\n")
             result_file.close()
+
+class InputFileValidator():
+    @staticmethod
+    def validate(file_object):
+        if not isfile(file_object):
+            print("The following file doesn't exist")
+            sys.exit("Enter the correct name/path to the file")
 
 
 LogParser.save_result( "results", LogParser.parse_log( LogParser.get_parser(), "PrChecker.Downs" ) )
