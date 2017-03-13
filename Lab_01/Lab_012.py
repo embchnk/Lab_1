@@ -30,10 +30,18 @@ class CountWords:
         words = buffer.split()
         counter = 0
         logging.info( "Looking for word: '" + string_to_count + "'" )
+        table = []
         for string in words:
-            if not string.find( string_to_count ) == -1:
-                counter += 1
-        print( counter )
+            if string not in table:
+                table.append( string )
+        table_with_counts = [ ( string, words.count( string ) ) for string in table if words.count( string ) > 1 ]
+        table_with_counts.sort( key = lambda table_with_counts: table_with_counts[1] )
+        for string in table_with_counts:
+            print( string )
+        # for string in words:
+        #     if not string.find( string_to_count ) == -1:
+        #         counter += 1
+        # print( counter )
 
 class InputFileValidator():
     @staticmethod
