@@ -2,6 +2,8 @@ import os.path
 import argparse
 import sys
 import os
+import matplotlib.pyplot as plt
+import numpy as np
 
 from os.path import isfile
 
@@ -42,6 +44,34 @@ class InputFileValidator():
             print("The following file doesn't exist")
             sys.exit("Enter the correct name/path to the file")
 
+data = LogParser.parse_log( LogParser.get_parser(), "PrChecker.Downs" )[1:]
+data_to_strings = []
+iterator = 0
+x_buffer = []
+y_buffer = []
+for buffer in data:
+        part = buffer.split()
+        for atom in part:
+            if atom.isdigit():
+                data_to_strings.append( atom )
+for string in data_to_strings:
+    if iterator == 0:
+        x_buffer.append( string )
+        iterator += 1
+    elif iterator == 1:
+        y_buffer.append( string )
+        iterator += 1
+    else:
+        iterator = 0
 
-LogParser.save_result( "results", LogParser.parse_log( LogParser.get_parser(), "PrChecker.Downs" ) )
-os.system( "jupyter notebook ./results" )
+plt.plot( x_buffer[:], y_buffer[:], 'ro' )
+plt.xlabel( "tracks" )
+plt.xticks(x_buffer[:], y_buffer[:], rotation='vertical')
+plt.margins(0.2)
+plt.subplots_adjust(bottom=0.15)
+plt.savefig( 'result.png' )
+os.system( "jupyter notebook ./result.png" )
+
+
+# LogParser.save_result( "results", LogParser.parse_log( LogParser.get_parser(), "PrChecker.Downs" ) )
+# os.system( "jupyter notebook ./results" )
