@@ -64,14 +64,12 @@ for string in data_to_strings:
     else:
         iterator = 0
 
+LogParser.save_result( "./results/results", LogParser.parse_log( LogParser.get_parser(), "PrChecker.Downs" ) )
+
 plt.plot( x_buffer[:], y_buffer[:], 'ro' )
 plt.xlabel( "tracks" )
-plt.xticks(x_buffer[:], y_buffer[:], rotation='vertical')
-plt.margins(0.2)
-plt.subplots_adjust(bottom=0.15)
-plt.savefig( 'result.png' )
-os.system( "jupyter notebook ./result.png" )
+plt.savefig( './results/result.png' )
+os.system( "jupyter notebook ./results/result.png" )
 
 
-# LogParser.save_result( "results", LogParser.parse_log( LogParser.get_parser(), "PrChecker.Downs" ) )
 # os.system( "jupyter notebook ./results" )
