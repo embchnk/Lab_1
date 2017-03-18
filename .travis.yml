@@ -6,4 +6,4 @@ python:
 install: "pip install -r requirements.txt"
 
 #command to run tests
-script: python ./Lab_01/Prblm_1/main.py ./Lab_01/Prblm_1/Logs/baseline_BdJPsiKs_MagD.log
+script: 
