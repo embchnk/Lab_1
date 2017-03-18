@@ -1,13 +1,9 @@
-import os.path
 import argparse
-import sys
-import os
-import matplotlib.pyplot as plt
-import numpy as np
 
-from os.path import isfile
 
 class LogParser:
+    def __init__(self):
+        pass
 
     @staticmethod
     def parse_log( input_file, string_to_be_found ):
@@ -26,7 +22,6 @@ class LogParser:
         parser = argparse.ArgumentParser( description = "File path: " )
         parser.add_argument( "file_object", type = str )
         arg = parser.parse_args()
-        InputFileValidator.validate( arg.file_object )
         return arg.file_object
 
     @staticmethod
@@ -37,39 +32,5 @@ class LogParser:
                 result_file.write( "\n")
             result_file.close()
 
-class InputFileValidator():
-    @staticmethod
-    def validate(file_object):
-        if not isfile(file_object):
-            print("The following file doesn't exist")
-            sys.exit("Enter the correct name/path to the file")
-
-data = LogParser.parse_log( LogParser.get_parser(), "PrChecker.Downs" )[1:]
-data_to_strings = []
-iterator = 0
-x_buffer = []
-y_buffer = []
-for buffer in data:
-        part = buffer.split()
-        for atom in part:
-            if atom.isdigit():
-                data_to_strings.append( atom )
-for string in data_to_strings:
-    if iterator == 0:
-        x_buffer.append( string )
-        iterator += 1
-    elif iterator == 1:
-        y_buffer.append( string )
-        iterator += 1
-    else:
-        iterator = 0
-
-LogParser.save_result( "./results/results", LogParser.parse_log( LogParser.get_parser(), "PrChecker.Downs" ) )
-
-plt.plot( x_buffer[:], y_buffer[:], 'ro' )
-plt.xlabel( "tracks" )
-plt.savefig( './results/result.png' )
-os.system( "jupyter notebook ./results/result.png" )
 
 
-# os.system( "jupyter notebook ./results" )
