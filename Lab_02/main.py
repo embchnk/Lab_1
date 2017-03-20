@@ -1,15 +1,11 @@
-from InputValidateClass import InputValidateClass
-from calculator import IntCalc, FloatCalc
+from calculator import FloatCalc
 
 
-test = "o"
-if InputValidateClass.is_input_digit(test) == 1:
-    calc = IntCalc()
-elif InputValidateClass.is_input_digit(test) == 2:
-    calc = FloatCalc()
+def main():
+    FloatCalc.start()
 
-try:
-    result = calc.addition(1, 2)
-    print(result)
-except NameError:
-    print("Cannot add")
+if __name__ == '__main__':
+    main()
+
+
+

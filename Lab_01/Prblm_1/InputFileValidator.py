@@ -1,7 +1,13 @@
-import sys
-
 from os.path import isfile
 from abc import ABCMeta, abstractmethod
+
+
+class NotAFile(Exception):
+    pass
+
+
+class NotAString(Exception):
+    pass
 
 
 class AbstractValidator():
@@ -16,8 +22,19 @@ class AbstractValidator():
 
 
 class InputFileValidator(AbstractValidator):
+
     @staticmethod
     def validate(file_object):
-        if not isfile(file_object):
-            print("The following file doesn't exist")
-            sys.exit("Enter the correct name/path to the file")
+        if not InputFileValidator._is_input_a_string(file_object):
+            raise NotAString("Input is not a string")
+        if not InputFileValidator._is_input_a_file(file_object):
+            raise NotAFile("Input is not a file")
+
+    @staticmethod
+    def _is_input_a_file(file_object):
+        return isfile(file_object)
+
+    @staticmethod
+    def _is_input_a_string(file_object):
+        return isinstance(file_object, str)
+

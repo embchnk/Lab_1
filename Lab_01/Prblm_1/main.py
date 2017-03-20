@@ -4,7 +4,9 @@ import matplotlib.pyplot as plt
 from LogParser import LogParser
 from InputFileValidator import InputFileValidator
 
-data = LogParser.parse_log( LogParser.get_parser(), "PrChecker.Downs" )[1:]
+InputFileValidator.validate(LogParser.get_parser())
+
+data = LogParser.parse_log(LogParser.get_parser(), "PrChecker.Downs")[1:]
 data_to_strings = []
 iterator = 0
 x_buffer = []
