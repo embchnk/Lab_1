@@ -1,10 +1,10 @@
 language: python
 python:
-  - "3.5"
+  - "2.7"
 
 #command to install dependencies
 install: "pip install -r requirements.txt"
 
 #command to run tests
 script: 
-        "pytest"
+        "./Lab_02/python -m unittest"
