@@ -1,9 +1,6 @@
 from abc import ABCMeta, abstractmethod
 from InputValidateClass import InputValidateClass
-
-
-class DivideByZero(Exception):
-    pass
+from Exceptions import DivideByZero
 
 
 class AbstractCalc:

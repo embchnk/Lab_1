@@ -1,8 +1,5 @@
 from abc import ABCMeta, abstractmethod
-
-
-class WrongInputType(Exception):
-    pass
+from Exceptions import WrongInputType
 
 
 class AbstractInputValidateClass:
@@ -22,11 +19,9 @@ class InputValidateClass(AbstractInputValidateClass):
             argument = input()
             return argument
         except SyntaxError:
-            print("Input invalid")
-            return False
+            raise WrongInputType
         except NameError:
-            print("Input invalid")
-            return False
+            raise WrongInputType
 
     @staticmethod
     def is_poss_to_do(agent1, agent2):
