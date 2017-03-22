@@ -14,9 +14,9 @@ class AbstractInputValidateClass:
 
 class InputValidateClass(AbstractInputValidateClass):
     @staticmethod
-    def is_correct_arg():
+    def is_correct_arg(arg):
         try:
-            argument = input()
+            argument = arg
             return argument
         except SyntaxError:
             raise WrongInputType
