@@ -37,7 +37,7 @@ class Menu:
             size = int(input())
             self.trigger_player(mode, size)
         elif mode == 2:
-            self.trigger_player(mode, 1)
+            self.trigger_player(mode, 2)
 
     def do_proper_action(self):
         if self.choice == 1:
