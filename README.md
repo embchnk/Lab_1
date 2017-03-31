@@ -1,5 +1,5 @@
-Python in the Enterprise
+# Python in the Enterprise
 
-  Tasks from labs
+## Tasks from labs
 
-  [![Build Status](https://travis-ci.org/embchnk/PitE.svg?branch=master)](https://travis-ci.org/embchnk/PitE)
+[![Build Status](https://travis-ci.org/embchnk/PitE.svg?branch=master)](https://travis-ci.org/embchnk/PitE)
