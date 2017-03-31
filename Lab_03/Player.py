@@ -20,12 +20,13 @@ class AbstractPlayer:
 class Player(AbstractPlayer):
     def __init__(self, name):
         self.name = name
-        self.players_file = open('players.dat', 'a')
+        self.players_file = open('saves/players.dat', 'a')
 
     # add self.name to file
     def add_player(self):
         if self.is_player_with_this_name():
             print("Choose another name player with this name already exists")
+            self.name = get_name_to_create_player().name
         else:
             self.players_file.write(self.name)
             self.players_file.write('\n')
@@ -40,7 +41,7 @@ class Player(AbstractPlayer):
     # check if player with self.name is in file, if yes
     # get, if not create new
     def is_player_with_this_name(self):
-        with open('players.dat', 'r') as players_list:
+        with open('saves/players.dat', 'r') as players_list:
             data = players_list.read()
             if self.name in data:
                 return True
@@ -48,8 +49,8 @@ class Player(AbstractPlayer):
                 return False
 
 
-
 ######################################################
+
 
 def create_player(name):
     player = Player(name)

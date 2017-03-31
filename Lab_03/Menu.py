@@ -28,7 +28,7 @@ class Menu:
         elif mode == 2:
             player.get_player()
             game = TicTacToe.TicTacToeVsComp(size, player)
-            game.board = game.board.load_board()
+            game.board = game.board.load_board(player.name)
         game.start_game()
 
     def init_game(self, mode):

@@ -5,6 +5,7 @@ class Board:
     def __init__(self, size):
         self.board = [[0 for _ in range(size)] for _ in range(size)]
         self.size = size
+        self.counter = size * size
 
     def show_board(self):
         print(end = '   ')
@@ -22,15 +23,15 @@ class Board:
                     print("o|", end = '')
             print('')
 
-    def save_board(self):
-        board_save = open('boards.dat', 'w')
+    def save_board(self, name):
+        board_save = open('saves/{}boards.dat'.format(name), 'w')
         for line in self.board:
             for val in line:
                 board_save.write(''.join(str(val)))
                 board_save.write(',')
 
-    def load_board(self):
-        board_save = open('boards.dat', 'r')
+    def load_board(self, name):
+        board_save = open('saves/{}boards.dat'.format(name), 'r')
         buffer = board_save.read().split(',')
         i = 0
         j = 0
