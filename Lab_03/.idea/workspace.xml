@@ -14,7 +14,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TicTacToe.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../TicTacToe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="46" column="38" lean-forward="false" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -31,6 +44,7 @@
         <option value="$PROJECT_DIR$/../../../Player.py" />
         <option value="$PROJECT_DIR$/../../Menu.py" />
         <option value="$PROJECT_DIR$/../../Player.py" />
+        <option value="$PROJECT_DIR$/../TicTacToe.py" />
       </list>
     </option>
   </component>
@@ -283,6 +297,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="24" width="1101" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2748815" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -339,5 +354,15 @@
     <entry file="file://$PROJECT_DIR$/../../Menu.py" />
     <entry file="file://$PROJECT_DIR$/../../Player.py" />
     <entry file="file://$PROJECT_DIR$/../../TicTacToe.py" />
+    <entry file="file://$PROJECT_DIR$/../TicTacToe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="46" column="38" lean-forward="false" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

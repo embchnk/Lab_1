@@ -44,7 +44,7 @@ class TicTacToeVsComp(AbstractTicTacToe):
                 return True
             return False
         if not self.move(self.sign, x_coord, y_coord):
-            print("Choose free cell")
+            print("Choose free/correct cell")
             self.get_coordinates()
         return True
 
@@ -62,19 +62,25 @@ class TicTacToeVsComp(AbstractTicTacToe):
         if not self.move(3 - self.sign, random.randrange(0, self.board.size), random.randrange(0, self.board.size)):
             self.comp_move()
 
-    def start_game(self):
+    def pair_of_moves(self):
+        choice = self.get_coordinates()
+        if not choice:
+            return False
+        self.comp_move()
+        self.board.counter -= 2
+        return True
+
+    def play_game(self):
         choice = True
-        while choice and self.board.counter:
+        while choice and self.board.counter > 0:
             print("Game of player: ", self.player.name)
             print("Press Q to quit")
             self.board.show_board()
-            choice = self.get_coordinates()
-            if not choice:
-                break
-            self.comp_move()
-            self.board.counter -= 2
-            print("Counter: ", self.board.counter)
+            choice = self.pair_of_moves()
         self.board.show_board()
         self.board.save_board(self.player.name)
+
+    def start_game(self):
+        self.play_game()
 
 
