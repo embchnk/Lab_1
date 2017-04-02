@@ -26,9 +26,13 @@ class Menu:
             player.add_player()
             game = TicTacToe.TicTacToeVsComp(size, player)
         elif mode == 2:
-            player.get_player()
-            game = TicTacToe.TicTacToeVsComp(size, player)
-            game.board = game.board.load_board(player.name)
+            try:
+                player.get_player()
+                game = TicTacToe.TicTacToeVsComp(size, player)
+                game.board = game.board.load_board(player.name)
+            except FileNotFoundError:
+                print("Player with this name doesn't exist/won previous game")
+                print("Creating new game...")
         game.start_game()
 
     def init_game(self, mode):

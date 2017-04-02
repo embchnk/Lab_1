@@ -42,7 +42,8 @@ class Player(AbstractPlayer):
     # get, if not create new
     def is_player_with_this_name(self):
         with open('saves/players.dat', 'r') as players_list:
-            data = players_list.read()
+            data_read = players_list.read()
+            data = data_read.split()
             for name in data:
                 if self.name == name:
                     return True

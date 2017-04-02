@@ -26,6 +26,43 @@ class TicTacToeVsComp(AbstractTicTacToe):
         self.player = player
         self.sign = random.randint(1, 2)
 
+    def check_if_this_move_make_winner(self, x_coord, y_coord):
+        print(x_coord, y_coord)
+        temp_counter = 0
+        if x_coord == y_coord:
+            for iterator in range(self.board.size):
+                if self.board.board[x_coord][y_coord] == self.board.board[iterator][iterator]:
+                    temp_counter += 1
+                else:
+                    break
+            if temp_counter == self.board.size:
+                return True
+            temp_counter = 0
+            for iterator in range(self.board.size):
+                if self.board.board[x_coord][y_coord] == self.board.board[iterator][self.board.size - iterator - 1]:
+                    temp_counter += 1
+                else:
+                    break
+            if temp_counter == self.board.size:
+                return True
+            temp_counter = 0
+        for iterator in range(self.board.size):
+            if self.board.board[x_coord][y_coord] == self.board.board[iterator][y_coord]:
+                temp_counter += 1
+            else:
+                break
+        if temp_counter == self.board.size:
+            return True
+        temp_counter = 0
+        for iterator in range(self.board.size):
+            if self.board.board[x_coord][y_coord] == self.board.board[x_coord][iterator]:
+                temp_counter += 1
+            else:
+                break
+        if temp_counter == self.board.size:
+            return True
+        return False
+
     def get_coordinates(self):
         print("Choose x: ")
         try:
@@ -46,6 +83,10 @@ class TicTacToeVsComp(AbstractTicTacToe):
         if not self.move(self.sign, x_coord, y_coord):
             print("Choose free/correct cell")
             self.get_coordinates()
+        else:
+            if self.check_if_this_move_make_winner(x_coord, y_coord):
+                print("You won :)")
+                self.board.counter = 0
         return True
 
     def move(self, which_player, x_coord, y_coord):
@@ -63,13 +104,19 @@ class TicTacToeVsComp(AbstractTicTacToe):
         y_coord = random.randrange(0, self.board.size)
         if not self.move(3 - self.sign, x_coord, y_coord):
             self.comp_move()
+        else:
+            if self.check_if_this_move_make_winner(x_coord, y_coord):
+                print("You lost")
+                self.board.counter = 0
 
     def pair_of_moves(self):
         choice = self.get_coordinates()
         if not choice:
             return False
-        self.comp_move()
-        self.board.counter -= 2
+        self.board.counter -= 1
+        if self.board.counter:
+            self.comp_move()
+        self.board.counter -= 1
         return True
 
     def play_game(self):
