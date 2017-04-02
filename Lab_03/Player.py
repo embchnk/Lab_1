@@ -46,7 +46,7 @@ class Player(AbstractPlayer):
             for name in data:
                 if self.name == name:
                     return True
-            return True
+            return False
 
 
 ######################################################

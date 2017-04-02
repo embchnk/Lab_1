@@ -59,7 +59,9 @@ class TicTacToeVsComp(AbstractTicTacToe):
             return
 
     def comp_move(self):
-        if not self.move(3 - self.sign, random.randrange(0, self.board.size), random.randrange(0, self.board.size)):
+        x_coord = random.randrange(0, self.board.size)
+        y_coord = random.randrange(0, self.board.size)
+        if not self.move(3 - self.sign, x_coord, y_coord):
             self.comp_move()
 
     def pair_of_moves(self):
@@ -77,8 +79,11 @@ class TicTacToeVsComp(AbstractTicTacToe):
             print("Press Q to quit")
             self.board.show_board()
             choice = self.pair_of_moves()
+        if self.board.counter <= 0:
+            print("Game finished, thank you :)")
+        else:
+            self.board.save_board(self.player.name)
         self.board.show_board()
-        self.board.save_board(self.player.name)
 
     def start_game(self):
         self.play_game()
