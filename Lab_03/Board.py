@@ -33,6 +33,8 @@ class Board:
     def load_board(self, name):
         board_save = open('saves/{}boards.dat'.format(name), 'r')
         buffer = board_save.read().split(',')
+        self.size = int(sqrt(len(buffer)))
+        self.counter = self.size * self.size
         i = 0
         j = 0
         self.board = [[]]

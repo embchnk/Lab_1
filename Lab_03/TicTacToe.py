@@ -114,7 +114,7 @@ class TicTacToeVsComp(AbstractTicTacToe):
         if not choice:
             return False
         self.board.counter -= 1
-        if self.board.counter:
+        if not self.board.counter <= 0:
             self.comp_move()
         self.board.counter -= 1
         return True
