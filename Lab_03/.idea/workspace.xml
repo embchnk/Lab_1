@@ -18,24 +18,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Board.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Board.py">
+      <file leaf-file-name="Menu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="640">
+              <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicTacToe.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TicTacToe.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="88" column="38" lean-forward="false" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -43,21 +31,31 @@
       <file leaf-file-name="Player.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            <state relative-caret-position="-300">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Menu.py">
+      <file leaf-file-name="TicTacToe.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../TicTacToe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="-840">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Board.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,14 +77,15 @@
         <option value="$USER_HOME$/Player.py" />
         <option value="$USER_HOME$/Menu.py" />
         <option value="$USER_HOME$/Player.py" />
+        <option value="$USER_HOME$/TicTacToe.py" />
+        <option value="$PROJECT_DIR$/../../../../Board.py" />
         <option value="$PROJECT_DIR$/../../../../TicTacToe.py" />
         <option value="$PROJECT_DIR$/../../../Board.py" />
         <option value="$PROJECT_DIR$/../../../TicTacToe.py" />
-        <option value="$PROJECT_DIR$/../../Board.py" />
-        <option value="$PROJECT_DIR$/../../TicTacToe.py" />
+        <option value="$PROJECT_DIR$/../../../Player.py" />
         <option value="$PROJECT_DIR$/../../Player.py" />
-        <option value="$PROJECT_DIR$/../Player.py" />
-        <option value="$PROJECT_DIR$/../TicTacToe.py" />
+        <option value="$PROJECT_DIR$/../../TicTacToe.py" />
+        <option value="$PROJECT_DIR$/../../Menu.py" />
         <option value="$PROJECT_DIR$/../Menu.py" />
       </list>
     </option>
@@ -94,7 +93,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="68" />
     <option name="y" value="24" />
-    <option name="width" value="1091" />
+    <option name="width" value="1089" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -112,6 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -126,8 +127,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -348,10 +347,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="24" width="1091" height="744" extended-state="4" />
+    <frame x="68" y="24" width="1089" height="744" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13205741" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13422818" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -376,7 +375,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$/../../.." />
+      <path value="$PROJECT_DIR$/../../../.." />
+      <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
@@ -411,47 +411,49 @@
     <entry file="file://$USER_HOME$/Menu.py" />
     <entry file="file://$USER_HOME$/Player.py" />
     <entry file="file://$USER_HOME$/TicTacToe.py" />
+    <entry file="file://$USER_HOME$/TicTacToe.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../main.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../Menu.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../Player.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../Board.py" />
     <entry file="file://$PROJECT_DIR$/../../../../TicTacToe.py" />
-    <entry file="file://$PROJECT_DIR$/../../../main.py" />
-    <entry file="file://$PROJECT_DIR$/../../../Menu.py" />
     <entry file="file://$PROJECT_DIR$/../../../Player.py" />
     <entry file="file://$PROJECT_DIR$/../../../Board.py" />
     <entry file="file://$PROJECT_DIR$/../../../TicTacToe.py" />
-    <entry file="file://$PROJECT_DIR$/../../Player.py" />
     <entry file="file://$PROJECT_DIR$/../../Board.py" />
+    <entry file="file://$PROJECT_DIR$/../../Player.py" />
     <entry file="file://$PROJECT_DIR$/../../TicTacToe.py" />
+    <entry file="file://$PROJECT_DIR$/../../Menu.py" />
     <entry file="file://$PROJECT_DIR$/../Board.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        <state relative-caret-position="-300">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../TicTacToe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="88" column="38" lean-forward="false" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
+        <state relative-caret-position="-840">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,7 +4,7 @@ import TicTacToe
 
 class Menu:
     def __init__(self):
-        self.menu = [(1, "New game"), (2, "Load game"), (3, "Change player"), (4, "Quit")]
+        self.menu = [(1, "New game"), (2, "Load game"), (3, "Quit")]
         self.choice = 0
 
     def start(self):
@@ -31,7 +31,7 @@ class Menu:
                 game = TicTacToe.TicTacToeVsComp(size, player)
                 game.board = game.board.load_board(player.name)
             except FileNotFoundError:
-                print("Player with this name doesn't exist/won previous game")
+                print("This player's game was not saved properly")
                 print("Creating new game...")
         game.start_game()
 
@@ -48,8 +48,5 @@ class Menu:
             self.init_game(1)
         elif self.choice == 2:
             self.init_game(2)
-        elif self.choice == 3:
-            player = Player.get_name_to_create_player()
-            player.add_player()
 
 
