@@ -1,6 +1,6 @@
+import random
 from abc import ABCMeta, abstractmethod
 import Board
-import random
 
 
 class AbstractTicTacToe:
@@ -95,7 +95,7 @@ class TicTacToeVsComp(AbstractTicTacToe):
             else:
                 return 0
         except IndexError:
-            return
+            return 0
 
     def comp_move(self):
         x_coord = random.randrange(0, self.board.size)
