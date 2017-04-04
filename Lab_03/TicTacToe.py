@@ -1,7 +1,6 @@
-import Board
-import Player
-import random
 from abc import ABCMeta, abstractmethod
+import Board
+import random
 
 
 class AbstractTicTacToe:
@@ -24,9 +23,7 @@ class TicTacToeVsComp(AbstractTicTacToe):
     def __init__(self, size, player):
         self.board = Board.Board(size)
         self.player = player
-        self.sign = random.randint(1, 2)
-        self.player.players_file.write(str(self.sign))
-        self.player.players_file.write('\n')
+        self.sign = self.player.ret_sign()
 
     def check_if_this_move_make_winner(self, x_coord, y_coord):
         temp_counter = 0
@@ -134,7 +131,6 @@ class TicTacToeVsComp(AbstractTicTacToe):
         self.board.show_board()
 
     def start_game(self):
-        self.sign = self.player.ret_sign()
         self.play_game()
 
 

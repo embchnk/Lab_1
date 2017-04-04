@@ -1,5 +1,5 @@
-import Player
 import TicTacToe
+import Player
 
 
 class Menu:
@@ -25,6 +25,8 @@ class Menu:
         if mode == 1:
             player.add_player()
             game = TicTacToe.TicTacToeVsComp(size, player)
+            game.player.players_file.write(str(game.sign))
+            game.player.players_file.write('\n')
         elif mode == 2:
             try:
                 player.get_player()

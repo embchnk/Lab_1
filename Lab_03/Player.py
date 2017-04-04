@@ -1,4 +1,5 @@
 from abc import ABCMeta, abstractmethod
+import random
 
 
 class AbstractPlayer:
@@ -50,7 +51,8 @@ class Player(AbstractPlayer):
             for index in range(len(data)):
                 if self.name == data[index]:
                     return int(data[index + 1])
-
+            else:
+                return random.randint(1, 2)
 
     # check if player with self.name is in file, if yes
     # get, if not create new
