@@ -16,6 +16,10 @@ class AbstractPlayer:
     def is_player_with_this_name(self):
         pass
 
+    @abstractmethod
+    def ret_sign(self):
+        pass
+
 
 class Player(AbstractPlayer):
     def __init__(self, name):
@@ -27,6 +31,7 @@ class Player(AbstractPlayer):
         if self.is_player_with_this_name():
             print("Choose another name player with this name already exists")
             self.name = get_name_to_create_player().name
+            self.add_player()
         else:
             self.players_file.write(self.name)
             self.players_file.write('\n')
@@ -37,6 +42,15 @@ class Player(AbstractPlayer):
         else:
             print("Player with this name doesn't exist\nCreating new player...")
             self.add_player()
+
+    def ret_sign(self):
+        with open('saves/players.dat', 'r') as players_list:
+            data_read = players_list.read()
+            data = data_read.split()
+            for index in range(len(data)):
+                if self.name == data[index]:
+                    return int(data[index + 1])
+
 
     # check if player with self.name is in file, if yes
     # get, if not create new

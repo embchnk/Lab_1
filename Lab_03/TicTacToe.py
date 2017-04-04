@@ -25,9 +25,10 @@ class TicTacToeVsComp(AbstractTicTacToe):
         self.board = Board.Board(size)
         self.player = player
         self.sign = random.randint(1, 2)
+        self.player.players_file.write(str(self.sign))
+        self.player.players_file.write('\n')
 
     def check_if_this_move_make_winner(self, x_coord, y_coord):
-        print(x_coord, y_coord)
         temp_counter = 0
         if x_coord == y_coord:
             for iterator in range(self.board.size):
@@ -133,6 +134,7 @@ class TicTacToeVsComp(AbstractTicTacToe):
         self.board.show_board()
 
     def start_game(self):
+        self.sign = self.player.ret_sign()
         self.play_game()
 
 
