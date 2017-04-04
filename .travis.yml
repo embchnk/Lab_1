@@ -5,10 +5,6 @@ python:
 #command to install dependencies
 install: "pip install -r requirements.txt"
 
-env:
-  - TEST_DIRECTORY = Lab_02
-  - TEST_DIRECTORY = Lab_03
-
 #command to run tests
 script: 
-        "cd $TEST_DIRECTORY && pytest"
+        "pytest"
