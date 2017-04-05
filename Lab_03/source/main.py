@@ -1,4 +1,4 @@
-import Menu
+from source import Menu
 
 menu = Menu.Menu()
 

@@ -18,29 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_ticTacToeVsComp.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_ticTacToeVsComp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../tests/test_ticTacToeVsComp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicTacToe.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../TicTacToe.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-640">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="122">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -51,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Exceptions.py" />
         <option value="$USER_HOME$/Player.py" />
         <option value="$USER_HOME$/main.py" />
         <option value="$USER_HOME$/Menu.py" />
@@ -73,37 +69,43 @@
         <option value="$USER_HOME$/TicTacToe.py" />
         <option value="$USER_HOME$/Menu.py" />
         <option value="$USER_HOME$/Menu.py" />
+        <option value="$USER_HOME$/Board.py" />
+        <option value="$USER_HOME$/TicTacToe.py" />
+        <option value="$USER_HOME$/test_ticTacToeVsComp.py" />
+        <option value="$USER_HOME$/source/Board.py" />
+        <option value="$USER_HOME$/source/Player.py" />
+        <option value="$USER_HOME$/source/main.py" />
+        <option value="$USER_HOME$/source/Menu.py" />
+        <option value="$USER_HOME$/source/TicTacToe.py" />
+        <option value="$USER_HOME$/main.py" />
+        <option value="$USER_HOME$/Board.py" />
+        <option value="$USER_HOME$/Menu.py" />
+        <option value="$USER_HOME$/TicTacToe.py" />
+        <option value="$USER_HOME$/Player.py" />
+        <option value="$PROJECT_DIR$/../../../../source/main.py" />
+        <option value="$PROJECT_DIR$/../../../../source/Menu.py" />
+        <option value="$PROJECT_DIR$/../../../../source/TicTacToe.py" />
+        <option value="$PROJECT_DIR$/../../../../source/Board.py" />
+        <option value="$PROJECT_DIR$/../../../../source/Player.py" />
         <option value="$PROJECT_DIR$/../../../../Board.py" />
+        <option value="$PROJECT_DIR$/../../../../main.py" />
+        <option value="$PROJECT_DIR$/../../../../Menu.py" />
         <option value="$PROJECT_DIR$/../../../../TicTacToe.py" />
-        <option value="$PROJECT_DIR$/../../../test_ticTacToeVsComp.py" />
-        <option value="$PROJECT_DIR$/../../../source/Board.py" />
-        <option value="$PROJECT_DIR$/../../../source/Player.py" />
-        <option value="$PROJECT_DIR$/../../../source/main.py" />
-        <option value="$PROJECT_DIR$/../../../source/Menu.py" />
-        <option value="$PROJECT_DIR$/../../../source/TicTacToe.py" />
-        <option value="$PROJECT_DIR$/../../../main.py" />
-        <option value="$PROJECT_DIR$/../../../Board.py" />
-        <option value="$PROJECT_DIR$/../../../Menu.py" />
-        <option value="$PROJECT_DIR$/../../../TicTacToe.py" />
-        <option value="$PROJECT_DIR$/../../../Player.py" />
+        <option value="$PROJECT_DIR$/../../../../Player.py" />
+        <option value="$PROJECT_DIR$/../../../../tests/test_ticTacToeVsComp.py" />
         <option value="$PROJECT_DIR$/../../source/main.py" />
         <option value="$PROJECT_DIR$/../../source/Menu.py" />
-        <option value="$PROJECT_DIR$/../../source/TicTacToe.py" />
-        <option value="$PROJECT_DIR$/../../source/Board.py" />
-        <option value="$PROJECT_DIR$/../../source/Player.py" />
-        <option value="$PROJECT_DIR$/../../Board.py" />
-        <option value="$PROJECT_DIR$/../../main.py" />
-        <option value="$PROJECT_DIR$/../../Menu.py" />
-        <option value="$PROJECT_DIR$/../../TicTacToe.py" />
-        <option value="$PROJECT_DIR$/../../Player.py" />
         <option value="$PROJECT_DIR$/../../tests/test_ticTacToeVsComp.py" />
+        <option value="$PROJECT_DIR$/../../source/test_ticTacToeVsComp.py" />
+        <option value="$PROJECT_DIR$/../../source/TicTacToe.py" />
+        <option value="$PROJECT_DIR$/../tests/test_ticTacToeVsComp.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="68" />
     <option name="y" value="24" />
-    <option name="width" value="1079" />
+    <option name="width" value="1075" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -121,6 +123,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -133,20 +137,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="." />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="." />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../tests" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../tests" />
       <recent name="$PROJECT_DIR$/../../source" />
-      <recent name="$PROJECT_DIR$/../../../source" />
+      <recent name="$PROJECT_DIR$/../../../../source" />
+      <recent name="$USER_HOME$/source" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -161,44 +193,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_ticTacToeVsComp.py (1)">
-    <configuration default="false" name="TicTacToe" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lab_03" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/TicTacToe.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lab_03" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in test_ticTacToeVsComp.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp">
+    <configuration default="false" name="Unittests in test_ticTacToeVsComp.py (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -213,7 +209,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_check_if_this_move_make_winner_should_return_false" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_pair_of_moves_should_return_false" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -224,11 +220,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lab_03" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_check_if_this_move_make_winner_should_return_false&quot;" />
+      <option name="_new_target" value="&quot;tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_pair_of_moves_should_return_false&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in test_ticTacToeVsComp.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_move_should_return_false_if_coordinates_are_not_in_board" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -239,8 +235,38 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lab_03" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../tests/test_ticTacToeVsComp.py&quot;" />
+      <option name="_new_target" value="&quot;tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_move_should_return_false_if_coordinates_are_not_in_board&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_ticTacToeVsComp.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lab_03" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../../source/test_ticTacToeVsComp.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lab_03" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_ticTacToeVsComp.TestTicTacToeVsComp&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -346,12 +372,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lab_03" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../source/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../source/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,19 +385,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TicTacToe" />
-      <item index="2" class="java.lang.String" itemvalue="Python.main" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_ticTacToeVsComp.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_check_if_this_move_make_winner_should_return_false" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in test_ticTacToeVsComp.py (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_ticTacToeVsComp.py (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_pair_of_moves_should_return_false" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_move_should_return_false_if_coordinates_are_not_in_board" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_ticTacToeVsComp.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_ticTacToeVsComp.py (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_check_if_this_move_make_winner_should_return_false" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_pair_of_moves_should_return_false" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_ticTacToeVsComp.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main" />
-        <item index="4" class="java.lang.String" itemvalue="Python.TicTacToe" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_ticTacToeVsComp.py (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_move_should_return_false_if_coordinates_are_not_in_board" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -408,35 +434,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_tests_test_ticTacToeVsComp_TestTicTacToeVsComp_test_check_if_this_move_make_winner_should_return_false - 2017.04.05 at 00h 40m 23s.xml">
-      <configuration name="Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_check_if_this_move_make_winner_should_return_false" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_test_ticTacToeVsComp_TestTicTacToeVsComp - 2017.04.05 at 15h 29m 33s.xml">
+      <configuration name="Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_ticTacToeVsComp_py - 2017.04.05 at 00h 26m 59s.xml">
+    <history-entry file="Unittests_for_tests_test_ticTacToeVsComp_TestTicTacToeVsComp_test_pair_of_moves_should_return_false - 2017.04.05 at 15h 24m 25s.xml">
+      <configuration name="Unittests for tests.test_ticTacToeVsComp.TestTicTacToeVsComp.test_pair_of_moves_should_return_false" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ticTacToeVsComp_py - 2017.04.05 at 15h 23m 07s.xml">
       <configuration name="Unittests in test_ticTacToeVsComp.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_ticTacToeVsComp_py - 2017.04.05 at 00h 27m 56s.xml">
+    <history-entry file="Unittests_in_test_ticTacToeVsComp_py - 2017.04.05 at 15h 23m 56s.xml">
       <configuration name="Unittests in test_ticTacToeVsComp.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_ticTacToeVsComp_py - 2017.04.05 at 00h 28m 41s.xml">
-      <configuration name="Unittests in test_ticTacToeVsComp.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_ticTacToeVsComp_py_(2) - 2017.04.05 at 15h 20m 04s.xml">
+      <configuration name="Unittests in test_ticTacToeVsComp.py (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_ticTacToeVsComp_py - 2017.04.05 at 00h 29m 27s.xml">
-      <configuration name="Unittests in test_ticTacToeVsComp.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_ticTacToeVsComp_py_(2) - 2017.04.05 at 15h 20m 08s.xml">
+      <configuration name="Unittests in test_ticTacToeVsComp.py (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_ticTacToeVsComp_py - 2017.04.05 at 00h 40m 07s.xml">
-      <configuration name="Unittests in test_ticTacToeVsComp.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_ticTacToeVsComp_py_(2) - 2017.04.05 at 15h 20m 37s.xml">
+      <configuration name="Unittests in test_ticTacToeVsComp.py (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_ticTacToeVsComp_py_(1) - 2017.04.05 at 00h 40m 31s.xml">
-      <configuration name="Unittests in test_ticTacToeVsComp.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_ticTacToeVsComp_py_(2) - 2017.04.05 at 15h 22m 04s.xml">
+      <configuration name="Unittests in test_ticTacToeVsComp.py (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_ticTacToeVsComp_py_(1) - 2017.04.05 at 00h 41m 31s.xml">
-      <configuration name="Unittests in test_ticTacToeVsComp.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_ticTacToeVsComp_py_(2) - 2017.04.05 at 15h 22m 21s.xml">
+      <configuration name="Unittests in test_ticTacToeVsComp.py (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_ticTacToeVsComp_py_(1) - 2017.04.05 at 00h 41m 59s.xml">
-      <configuration name="Unittests in test_ticTacToeVsComp.py (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_ticTacToeVsComp_py_(1) - 2017.04.05 at 00h 48m 50s.xml">
-      <configuration name="Unittests in test_ticTacToeVsComp.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_ticTacToeVsComp_py_(2) - 2017.04.05 at 15h 23m 04s.xml">
+      <configuration name="Unittests in test_ticTacToeVsComp.py (2)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -449,18 +475,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="24" width="1079" height="744" extended-state="4" />
+    <frame x="68" y="24" width="1075" height="744" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15392062" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16034986" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39864865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -486,76 +512,75 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Board.py" />
+    <entry file="file://$USER_HOME$/TicTacToe.py" />
+    <entry file="file://$USER_HOME$/Board.py" />
+    <entry file="file://$USER_HOME$/Player.py" />
+    <entry file="file://$USER_HOME$/TicTacToe.py" />
+    <entry file="file://$USER_HOME$/Menu.py" />
+    <entry file="file://$USER_HOME$/Board.py" />
     <entry file="file://$USER_HOME$/Menu.py" />
     <entry file="file://$USER_HOME$/Player.py" />
     <entry file="file://$USER_HOME$/TicTacToe.py" />
+    <entry file="file://$USER_HOME$/Board.py" />
+    <entry file="file://$USER_HOME$/Menu.py" />
     <entry file="file://$USER_HOME$/TicTacToe.py" />
+    <entry file="file://$USER_HOME$/Board.py" />
+    <entry file="file://$USER_HOME$/Menu.py" />
+    <entry file="file://$USER_HOME$/TicTacToe.py" />
+    <entry file="file://$USER_HOME$/test_ticTacToeVsComp.py" />
+    <entry file="file://$USER_HOME$/source/Menu.py" />
+    <entry file="file://$USER_HOME$/source/Player.py" />
+    <entry file="file://$USER_HOME$/source/TicTacToe.py" />
+    <entry file="file://$USER_HOME$/source/Board.py" />
+    <entry file="file://$USER_HOME$/source/main.py" />
     <entry file="file://$USER_HOME$/main.py" />
-    <entry file="file://$USER_HOME$/Menu.py" />
-    <entry file="file://$USER_HOME$/Player.py" />
-    <entry file="file://$USER_HOME$/Board.py" />
-    <entry file="file://$USER_HOME$/TicTacToe.py" />
-    <entry file="file://$USER_HOME$/Player.py" />
-    <entry file="file://$USER_HOME$/Board.py" />
-    <entry file="file://$USER_HOME$/TicTacToe.py" />
-    <entry file="file://$USER_HOME$/Board.py" />
-    <entry file="file://$USER_HOME$/Player.py" />
-    <entry file="file://$USER_HOME$/TicTacToe.py" />
-    <entry file="file://$USER_HOME$/Menu.py" />
-    <entry file="file://$USER_HOME$/Board.py" />
-    <entry file="file://$USER_HOME$/Menu.py" />
-    <entry file="file://$USER_HOME$/Player.py" />
-    <entry file="file://$USER_HOME$/TicTacToe.py" />
     <entry file="file://$USER_HOME$/Board.py" />
     <entry file="file://$USER_HOME$/Menu.py" />
     <entry file="file://$USER_HOME$/TicTacToe.py" />
+    <entry file="file://$USER_HOME$/Player.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../source/TicTacToe.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../source/Board.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../source/main.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../source/Menu.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../source/Player.py" />
     <entry file="file://$PROJECT_DIR$/../../../../Board.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../main.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../README.md" />
+    <entry file="file://$PROJECT_DIR$/../../../../Player.py" />
     <entry file="file://$PROJECT_DIR$/../../../../Menu.py" />
     <entry file="file://$PROJECT_DIR$/../../../../TicTacToe.py" />
-    <entry file="file://$PROJECT_DIR$/../../../test_ticTacToeVsComp.py" />
-    <entry file="file://$PROJECT_DIR$/../../../source/Menu.py" />
-    <entry file="file://$PROJECT_DIR$/../../../source/Player.py" />
-    <entry file="file://$PROJECT_DIR$/../../../source/TicTacToe.py" />
-    <entry file="file://$PROJECT_DIR$/../../../source/Board.py" />
-    <entry file="file://$PROJECT_DIR$/../../../source/main.py" />
-    <entry file="file://$PROJECT_DIR$/../../../main.py" />
-    <entry file="file://$PROJECT_DIR$/../../../Board.py" />
-    <entry file="file://$PROJECT_DIR$/../../../Menu.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../tests/test_ticTacToeVsComp.py" />
+    <entry file="file://$PROJECT_DIR$/../../../tests/test_ticTacToeVsComp.py" />
     <entry file="file://$PROJECT_DIR$/../../../TicTacToe.py" />
-    <entry file="file://$PROJECT_DIR$/../../../Player.py" />
-    <entry file="file://$PROJECT_DIR$/../../source/TicTacToe.py" />
-    <entry file="file://$PROJECT_DIR$/../../source/Board.py" />
-    <entry file="file://$PROJECT_DIR$/../../source/main.py" />
-    <entry file="file://$PROJECT_DIR$/../../source/Menu.py" />
-    <entry file="file://$PROJECT_DIR$/../../source/Player.py" />
-    <entry file="file://$PROJECT_DIR$/../../Board.py" />
-    <entry file="file://$PROJECT_DIR$/../../main.py" />
-    <entry file="file://$PROJECT_DIR$/../../README.md">
+    <entry file="file:///usr/lib/python3.5/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="760">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Player.py" />
-    <entry file="file://$PROJECT_DIR$/../../Menu.py" />
-    <entry file="file://$PROJECT_DIR$/../../TicTacToe.py" />
+    <entry file="file://$PROJECT_DIR$/../../source/Menu.py" />
+    <entry file="file://$PROJECT_DIR$/../../source/main.py" />
+    <entry file="file://$PROJECT_DIR$/../../source/Board.py" />
+    <entry file="file:///usr/lib/python3.5/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../source/Player.py" />
+    <entry file="file://$PROJECT_DIR$/../../source/test_ticTacToeVsComp.py" />
+    <entry file="file://$PROJECT_DIR$/../../source/TicTacToe.py" />
     <entry file="file://$PROJECT_DIR$/../../tests/test_ticTacToeVsComp.py" />
     <entry file="file://$PROJECT_DIR$/../tests/test_ticTacToeVsComp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TicTacToe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="122">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

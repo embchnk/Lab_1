@@ -1,6 +1,7 @@
 import random
 from abc import ABCMeta, abstractmethod
-import Board
+
+from source import Board
 
 
 class AbstractTicTacToe:

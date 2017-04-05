@@ -1,7 +1,8 @@
-import TicTacToe
-import Player
 from unittest import TestCase
 from unittest.mock import patch
+
+from source import Player
+from source import TicTacToe
 
 
 class TestTicTacToeVsComp(TestCase):
@@ -22,8 +23,8 @@ class TestTicTacToeVsComp(TestCase):
         expected_return_statement = False
         self.assertEqual(tictactoe.move(1, x_coord, y_coord), expected_return_statement)
 
-    @patch('TicTacToe.TicTacToeVsComp.get_coordinates', return_value = 0)
-    def test_pair_of_moves_should_return_false (self, mock_get_coord):
+    @patch('source.TicTacToe.TicTacToeVsComp.get_coordinates', return_value = 0)
+    def test_pair_of_moves_should_return_false (self, mock_get_coordinates):
         player = Player.Player('test')
         tictactoe = TicTacToe.TicTacToeVsComp(2, player)
         expected_return_statement = False

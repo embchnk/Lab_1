@@ -1,5 +1,5 @@
-import TicTacToe
-import Player
+from source import Player
+from source import TicTacToe
 
 
 class Menu:
