@@ -1,6 +1,5 @@
 import random
 from abc import ABCMeta, abstractmethod
-
 from source import Board
 
 
