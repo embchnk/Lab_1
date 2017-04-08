@@ -28,7 +28,7 @@ class EchoClient:
 if __name__ == "__main__":
     host = 'localhost'
     port = 50001
-    data_size = 1024
+    data_size = 2048
     client = EchoClient(host, port, data_size)
     while True:
         if not client.sendMsg(input()):
