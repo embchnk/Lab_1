@@ -1,8 +1,10 @@
 from unittest import TestCase
 from unittest.mock import patch
 
-from source import Player
-from source import TicTacToe
+# from source import Player
+# from source import TicTacToe
+import TicTacToe
+import Player
 
 
 class TestTicTacToeVsComp(TestCase):
