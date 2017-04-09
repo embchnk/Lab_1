@@ -8,6 +8,8 @@
 2. [Simple calculator](Lab_02)
 3. [TicTacToe_game prototype](Lab_03)
 
+*Also in [test_tcpip](../../tree/test_tcpip) I am creating TicTacToe - Client - Server - game*
+
 ##### status of build:
 
 [![Build Status](https://travis-ci.org/embchnk/PitE.svg?branch=master)](https://travis-ci.org/embchnk/PitE)
