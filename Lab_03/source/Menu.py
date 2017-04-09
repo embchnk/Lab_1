@@ -17,11 +17,12 @@ class Menu:
     def start(self):
         self.display()
         self.get_choice()
-        self.do_proper_action()
+        if not self.do_proper_action():
+            return False
 
     def display(self):
         for option in self.menu:
-            self.server.connection.send(option.encode())
+            self.server.print_str_to_client(option)
 
     def get_choice(self):
         try:
@@ -29,7 +30,8 @@ class Menu:
             return self.choice
         except ValueError:
             self.server.print_str_to_client("Enter correct value\n")
-            self.get_choice()
+            return self.get_choice()
+
 
     def trigger_player(self, mode, size):
         player = Player.Player(self.server)
@@ -41,7 +43,7 @@ class Menu:
             game.player.players_file.write('\n')
         elif mode == 2:
             try:
-                game = TicTacToe.TicTacToeVsComp(size, player)
+                game = TicTacToe.TicTacToeVsComp(size, player, self.server)
                 game.board = game.board.load_board(player.name)
             except FileNotFoundError:
                 self.server.print_str_to_client("This player's game was not saved properly")
@@ -61,5 +63,7 @@ class Menu:
             self.init_game(1)
         elif self.choice == 2:
             self.init_game(2)
+        elif self.choice == 3:
+            return False
 
 

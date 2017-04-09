@@ -3,7 +3,7 @@ import sys
 import Menu
 
 
-class EchoServer:
+class GameServer:
     def __init__(self, address, port, data_size):
         self.data_size = data_size
         self._createTcpIpSocket()
@@ -21,9 +21,17 @@ class EchoServer:
 
     def handle_connection(self):
         self.sock.listen(1)
-        self.connection, client_address = self.sock.accept()
-        self.menu.start()
-        self.connection.close()
+        try:
+            self.connection, client_address = self.sock.accept()
+        except KeyboardInterrupt:
+            return False
+        while True:
+            if not self.menu.start():
+                self.connection.close()
+                try:
+                    self.connection, client_address = self.sock.accept()
+                except KeyboardInterrupt:
+                    break
 
     def _createTcpIpSocket(self):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -36,6 +44,6 @@ class EchoServer:
 if __name__ == "__main__":
     host = 'localhost'
     port = 50001
-    data_size = 1024
-    server = EchoServer(host, port, data_size)
+    data_size = 8192
+    server = GameServer(host, port, data_size)
     server.handle_connection()

@@ -1,14 +1,18 @@
 import socket
 import sys
 
-class EchoClient:
+
+class GameClient:
     def __init__(self, address, port, data_size):
         self.data_size = data_size
         self._createTcpIpSocket()
         self._connectToServer(address, port)
 
     def sendMsg(self, msg):
-        self.sock.send(msg.encode())
+        try:
+            self.sock.send(msg.encode())
+        except BrokenPipeError:
+            return False
         response = self.sock.recv(self.data_size).decode()
         print(response, file = sys.stderr)
         if response == "":
@@ -28,8 +32,9 @@ class EchoClient:
 if __name__ == "__main__":
     host = 'localhost'
     port = 50001
-    data_size = 2048
-    client = EchoClient(host, port, data_size)
+    data_size = 8192
+    client = GameClient(host, port, data_size)
+    print(client.sock.recv(client.data_size).decode())
     while True:
         if not client.sendMsg(input()):
             break
