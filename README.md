@@ -8,7 +8,7 @@
 2. [Simple calculator](Lab_02)
 3. [TicTacToe_game prototype](Lab_03)
 
-*Also in [test_tcpip](../../tree/test_tcpip) I am creating TicTacToe - Client - Server - game*
+*Also in [test_tcpip/Lab_03](../../tree/test_tcpip/Lab_03) I am creating TicTacToe - Client - Server - game*
 
 ##### status of build:
 
