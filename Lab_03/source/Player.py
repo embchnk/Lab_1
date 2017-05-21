@@ -1,6 +1,7 @@
 from abc import ABCMeta, abstractmethod
 import random
 import server
+import logging
 
 
 class AbstractPlayer:
@@ -32,7 +33,7 @@ class Player(AbstractPlayer):
     # add self.name to file
     def add_player(self):
         if self.is_player_with_this_name():
-            self.server.print_str_to_client("Choose another name player with this name already exists\n")
+            self.server.add_str_to_buffer("Choose another name player with this name already exists\n")
             self.get_name_to_create_player()
             self.add_player()
         else:
@@ -68,6 +69,7 @@ class Player(AbstractPlayer):
             return False
 
     def get_name_to_create_player(self):
-        self.server.print_str_to_client("Choose your name: ")
+        self.server.add_str_to_buffer("Choose your name: ")
+        self.server.send_buffer()
         self.name = self.server.return_received_data()
 

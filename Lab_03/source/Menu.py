@@ -3,9 +3,33 @@
 import Player
 import TicTacToe
 import server
+import random
+import datetime
+import logging
+from abc import ABCMeta, abstractmethod
 
 
-class Menu:
+class AbstractMenu:
+    __metaclass__ = ABCMeta
+
+    @abstractmethod
+    def start(self):
+        pass
+
+    @abstractmethod
+    def get_choice(self):
+        pass
+
+    @abstractmethod
+    def init_game(self, mode):
+        pass
+
+    @abstractmethod
+    def do_proper_action(self):
+        pass
+
+
+class Menu(AbstractMenu):
     def __init__(self, server):
         self.menu = ["1 New game\n", "2 Load game\n", "3 Quit\n"]
         self.choice = 0
@@ -18,11 +42,14 @@ class Menu:
         self.display()
         self.get_choice()
         if not self.do_proper_action():
+            logging.info("Game ended")
             return False
 
     def display(self):
+        buffer = ""
         for option in self.menu:
-            self.server.print_str_to_client(option)
+            buffer += option
+        self.server.print_str_to_client(buffer)
 
     def get_choice(self):
         try:
@@ -31,7 +58,6 @@ class Menu:
         except ValueError:
             self.server.print_str_to_client("Enter correct value\n")
             return self.get_choice()
-
 
     def trigger_player(self, mode, size):
         player = Player.Player(self.server)
@@ -46,8 +72,9 @@ class Menu:
                 game = TicTacToe.TicTacToeVsComp(size, player, self.server)
                 game.board = game.board.load_board(player.name)
             except FileNotFoundError:
-                self.server.print_str_to_client("This player's game was not saved properly")
-                self.server.print_str_to_client("Creating new game...")
+                self.server.add_str_to_buffer("This player's game was not saved properly")
+                self.server.add_str_to_buffer("Creating new game...")
+                self.server.send_buffer()
         game.start_game()
 
     def init_game(self, mode):
@@ -67,3 +94,18 @@ class Menu:
             return False
 
 
+class MenuToGuessVal(AbstractMenu):
+    def __init__(self):
+        pass
+
+    def start(self):
+        pass
+
+    def get_choice(self):
+        pass
+
+    def init_game(self, mode):
+        pass
+
+    def do_proper_action(self):
+        pass

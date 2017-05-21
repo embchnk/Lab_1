@@ -1,0 +1,94 @@
+INFO:root:
+
+2017-05-21 20:41:46.876347
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1 New game
+2 Load game
+3 Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: Choose your name: 
+INFO:root:Received data: Michal
+INFO:root:Sending string to client: Game of player: Michal
+Press Q to quit
+  0 1 2
+0|o| | |
+1| |x| |
+2| | | |
+Choose x: 
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Choose y: 
+INFO:root:Received data: 0
+INFO:root:Sending string to client: Game of player: Michal
+Press Q to quit
+  0 1 2
+0|o| | |
+1|x|x| |
+2| | |o|
+Choose x: 
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Choose y: 
+INFO:root:Received data: 2
+INFO:root:Sending string to client: You won :)
+Game finished, thank you :)
+
+INFO:root:Game ended
+INFO:root:
+
+2017-05-21 20:43:09.757170
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1 New game
+2 Load game
+3 Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Chose size of the board
+INFO:root:Received data: Michal
+INFO:root:Sending string to client: Enter correct value
+
+INFO:root:Received data: 3
+INFO:root:Sending string to client: Choose your name: 
+INFO:root:Received data: Michalek
+INFO:root:Sending string to client: Choose another name player with this name already exists
+Choose your name: 
+INFO:root:Received data: Mikel
+INFO:root:Sending string to client: Game of player: Mikel
+Press Q to quit
+  0 1 2
+0| | | |
+1| | | |
+2| | | |
+Choose x: 
+INFO:root:Received data: 0
+INFO:root:Sending string to client: Choose y: 
+INFO:root:Received data: 0
+INFO:root:Sending string to client: Game of player: Mikel
+Press Q to quit
+  0 1 2
+0|x| | |
+1| |o| |
+2| | | |
+Choose x: 
+INFO:root:Received data: 0
+INFO:root:Sending string to client: Choose y: 
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Game of player: Mikel
+Press Q to quit
+  0 1 2
+0|x|x| |
+1| |o| |
+2| | |o|
+Choose x: 
+INFO:root:Received data: 0
+INFO:root:Sending string to client: Choose y: 
+INFO:root:Received data: 2
+INFO:root:Sending string to client: You won :)
+  0 1 2
+0|x|x|x|
+1| |o| |
+2| | |o|
+Game finished, thank you :)
+Click ENTER
+INFO:root:Game ended

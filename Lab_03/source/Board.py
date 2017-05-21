@@ -31,8 +31,7 @@ class Board:
                     # self.server.print_str_to_client("o|")
                     buffer_to_send += "o|"
             buffer_to_send += "\n"
-        self.server.print_str_to_client(buffer_to_send)
-
+        self.server.add_str_to_buffer(buffer_to_send)
 
     def save_board(self, name):
         board_save = open('../saves/{}boards.dat'.format(name), 'w')

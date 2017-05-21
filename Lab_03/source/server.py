@@ -1,6 +1,10 @@
 import socket
 import sys
 import Menu
+import logging
+import datetime
+
+logging.basicConfig(filename = "logs.log", level = logging.INFO)
 
 
 class GameServer:
@@ -10,19 +14,32 @@ class GameServer:
         self._bindSocketToPort(address, port)
         self.menu = Menu.Menu(self)
         self.buffer = 0
+        self.buffer_to_send = ""
         self.connection = 0
+
+    def add_str_to_buffer(self, string):
+        self.buffer_to_send += string
+
+    def send_buffer(self):
+        self.print_str_to_client(self.buffer_to_send)
+        self.buffer_to_send = ""
 
     def return_received_data(self):
         self.buffer = self.connection.recv(self.data_size)
+        logging.info("Received data: {}".format(self.buffer.decode()))
         return self.buffer.decode()
 
     def print_str_to_client(self, string):
         self.connection.send(string.encode())
+        logging.info("Sending string to client: {}".format(string))
 
     def handle_connection(self):
         self.sock.listen(1)
+        logging.info("\n\n{}".format(datetime.datetime.now()))
+        logging.info("Server listening...")
         try:
             self.connection, client_address = self.sock.accept()
+            logging.info("Connection established")
         except KeyboardInterrupt:
             return False
         while True:

@@ -3,6 +3,7 @@ from abc import ABCMeta, abstractmethod
 # from source import Board
 import Board
 import server
+import logging
 
 
 class AbstractTicTacToe:
@@ -65,7 +66,8 @@ class TicTacToeVsComp(AbstractTicTacToe):
         return False
 
     def get_coordinates(self):
-        self.server.print_str_to_client("Choose x: ")
+        self.server.add_str_to_buffer("Choose x: ")
+        self.server.send_buffer()
         try:
             get_val = self.server.return_received_data()
             x_coord = int(get_val)
@@ -82,11 +84,11 @@ class TicTacToeVsComp(AbstractTicTacToe):
                 return True
             return False
         if not self.move(self.sign, x_coord, y_coord):
-            self.server.print_str_to_client("Choose free/correct cell\n")
+            self.server.add_str_to_buffer("Choose free/correct cell\n")
             self.get_coordinates()
         else:
             if self.check_if_this_move_make_winner(x_coord, y_coord):
-                self.server.print_str_to_client("You won :)\n")
+                self.server.add_str_to_buffer("You won :)\n")
                 self.board.counter = 0
         return True
 
@@ -107,7 +109,7 @@ class TicTacToeVsComp(AbstractTicTacToe):
             self.comp_move()
         else:
             if self.check_if_this_move_make_winner(x_coord, y_coord):
-                self.server.print_str_to_client("You lost\n")
+                self.server.add_str_to_buffer("You lost\n")
                 self.board.counter = 0
 
     def pair_of_moves(self):
@@ -123,17 +125,17 @@ class TicTacToeVsComp(AbstractTicTacToe):
     def play_game(self):
         choice = True
         while choice and self.board.counter > 0:
-            self.server.print_str_to_client("Game of player: {}\n".format(self.player.name))
-            self.server.print_str_to_client("Press Q to quit\n")
+            self.server.add_str_to_buffer("Game of player: {}\n".format(self.player.name))
+            self.server.add_str_to_buffer("Press Q to quit\n")
             self.board.show_board()
             choice = self.pair_of_moves()
         if self.board.counter <= 0:
-            self.server.print_str_to_client("Game finished, thank you :)\n")
+            self.board.show_board()
+            self.server.add_str_to_buffer("Game finished, thank you :)\nClick ENTER")
+            self.server.send_buffer()
         else:
             self.board.save_board(self.player.name)
         self.board.show_board()
 
     def start_game(self):
         self.play_game()
-
-

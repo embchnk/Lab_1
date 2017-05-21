@@ -28,7 +28,6 @@ class GameClient:
         print('connecting to %s port %s' % server_address, file = sys.stderr)
         self.sock.connect(server_address)
 
-
 if __name__ == "__main__":
     host = 'localhost'
     port = 50001
