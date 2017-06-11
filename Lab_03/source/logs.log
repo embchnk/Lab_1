@@ -1,0 +1,735 @@
+INFO:root:
+
+2017-05-21 20:41:46.876347
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1 New game
+2 Load game
+3 Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: Choose your name: 
+INFO:root:Received data: Michal
+INFO:root:Sending string to client: Game of player: Michal
+Press Q to quit
+  0 1 2
+0|o| | |
+1| |x| |
+2| | | |
+Choose x: 
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Choose y: 
+INFO:root:Received data: 0
+INFO:root:Sending string to client: Game of player: Michal
+Press Q to quit
+  0 1 2
+0|o| | |
+1|x|x| |
+2| | |o|
+Choose x: 
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Choose y: 
+INFO:root:Received data: 2
+INFO:root:Sending string to client: You won :)
+Game finished, thank you :)
+
+INFO:root:Game ended
+INFO:root:
+
+2017-05-21 20:43:09.757170
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1 New game
+2 Load game
+3 Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Chose size of the board
+INFO:root:Received data: Michal
+INFO:root:Sending string to client: Enter correct value
+
+INFO:root:Received data: 3
+INFO:root:Sending string to client: Choose your name: 
+INFO:root:Received data: Michalek
+INFO:root:Sending string to client: Choose another name player with this name already exists
+Choose your name: 
+INFO:root:Received data: Mikel
+INFO:root:Sending string to client: Game of player: Mikel
+Press Q to quit
+  0 1 2
+0| | | |
+1| | | |
+2| | | |
+Choose x: 
+INFO:root:Received data: 0
+INFO:root:Sending string to client: Choose y: 
+INFO:root:Received data: 0
+INFO:root:Sending string to client: Game of player: Mikel
+Press Q to quit
+  0 1 2
+0|x| | |
+1| |o| |
+2| | | |
+Choose x: 
+INFO:root:Received data: 0
+INFO:root:Sending string to client: Choose y: 
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Game of player: Mikel
+Press Q to quit
+  0 1 2
+0|x|x| |
+1| |o| |
+2| | |o|
+Choose x: 
+INFO:root:Received data: 0
+INFO:root:Sending string to client: Choose y: 
+INFO:root:Received data: 2
+INFO:root:Sending string to client: You won :)
+  0 1 2
+0|x|x|x|
+1| |o| |
+2| | |o|
+Game finished, thank you :)
+Click ENTER
+INFO:root:Game ended
+INFO:root:
+
+2017-06-11 15:34:26.058586
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:
+
+2017-06-11 15:35:40.402452
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: 1 New game
+2 Load game
+3 Quit
+
+INFO:root:Received data: 3
+INFO:root:Game ended
+INFO:root:Sending string to client: 1 New game
+2 Load game
+3 Quit
+
+INFO:root:Received data: 3
+INFO:root:Game ended
+INFO:root:
+
+2017-06-11 15:38:12.295526
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:
+
+2017-06-11 15:39:18.855537
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: 1 New game
+2 Load game
+3 Quit
+
+INFO:root:Received data: 3
+INFO:root:Game ended
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 3
+INFO:root:Game ended
+INFO:root:
+
+2017-06-11 15:43:25.259115
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 3
+INFO:root:Game ended
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 3
+INFO:root:Game ended
+INFO:root:
+
+2017-06-11 15:47:36.311148
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Getting a random value
+INFO:root:Received data: 10
+INFO:root:
+
+2017-06-11 15:49:32.218409
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Getting a random value
+INFO:root:Received data: 10
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 20
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 40
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 60
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 70
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 80
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 90
+INFO:root:Sending string to client: Guess value
+Try with smaller one!
+
+INFO:root:Received data: 86
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 87
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 8
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 88
+INFO:root:Sending string to client: Guess value
+You won!
+
+INFO:root:
+
+2017-06-11 15:51:07.079591
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Getting a random value
+INFO:root:Received data: 10
+INFO:root:Sending string to client: Guess value
+Try with smaller one!
+
+INFO:root:Received data: 4
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 5
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 6
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 7
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 8
+INFO:root:Sending string to client: Guess value
+Try with greater one!
+
+INFO:root:Received data: 9
+INFO:root:Sending string to client: Guess value
+You won!
+
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 3
+INFO:root:Game ended
+INFO:root:
+
+2017-06-11 15:54:05.783016
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 3
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 3
+INFO:root:
+
+2017-06-11 15:55:52.771042
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 2
+INFO:root:
+
+2017-06-11 15:57:00.312234
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Getting a random value
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 20
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 20
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 40
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 70
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 80
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 75
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 74
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 72
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 71
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 70
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 60
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 70
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 70
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 70
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 70
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 70
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 70
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 60
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 50
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 40
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 30
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 40
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 35
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 36
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 37
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 38
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 39
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 40
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 41
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 42
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 43
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 50
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 70
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 60
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 50
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 40
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 30
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 40
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 50
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 40
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:
+
+2017-06-11 19:57:06.553496
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 1
+INFO:root:
+
+2017-06-11 19:58:11.928109
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Getting a random valueGuess value
+
+INFO:root:Received data: 10
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 40
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Received data: 
+INFO:root:
+
+2017-06-11 20:00:10.160837
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Sending string to client: Getting a random value
+INFO:root:Received data: 10
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Received data: 20
+INFO:root:Sending string to client: Guess value
+
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Received data: 
+INFO:root:
+
+2017-06-11 20:02:25.241859
+INFO:root:Server listening...
+INFO:root:Connection established
+INFO:root:Sending string to client: 1. TicTacToe Game
+2. GuessValue Game
+3. Quit
+
+INFO:root:Received data: 2
+INFO:root:Sending string to client: 1. Start game
+2. Quit
+
+INFO:root:Received data: 1
+INFO:root:Sending string to client: Getting a random value
+Guess value
+
+INFO:root:Received data: 10
+INFO:root:Sending string to client: Try with greater one!
+
+INFO:root:Received data: 20
+INFO:root:Sending string to client: Try with smaller one!
+
+INFO:root:Received data: 15
+INFO:root:Sending string to client: You won!
+

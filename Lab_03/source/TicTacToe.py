@@ -1,6 +1,9 @@
 import random
 from abc import ABCMeta, abstractmethod
-from source import Board
+# from source import Board
+import Board
+import server
+import logging
 
 
 class AbstractTicTacToe:
@@ -20,10 +23,11 @@ class AbstractTicTacToe:
 
 
 class TicTacToeVsComp(AbstractTicTacToe):
-    def __init__(self, size, player):
-        self.board = Board.Board(size)
+    def __init__(self, size, player, server):
+        self.board = Board.Board(size, server)
         self.player = player
         self.sign = self.player.ret_sign()
+        self.server = server
 
     def check_if_this_move_make_winner(self, x_coord, y_coord):
         temp_counter = 0
@@ -62,28 +66,29 @@ class TicTacToeVsComp(AbstractTicTacToe):
         return False
 
     def get_coordinates(self):
-        print("Choose x: ")
+        self.server.add_str_to_buffer("Choose x: ")
+        self.server.send_buffer()
         try:
-            get_val = input()
+            get_val = self.server.return_received_data()
             x_coord = int(get_val)
         except ValueError:
             if get_val != 'q' and 'Q':
                 return True
             return False
-        print("Choose y: ")
+        self.server.print_str_to_client("Choose y: ")
         try:
-            get_val = input()
+            get_val = self.server.return_received_data()
             y_coord = int(get_val)
         except ValueError:
             if get_val != 'q' and 'Q':
                 return True
             return False
         if not self.move(self.sign, x_coord, y_coord):
-            print("Choose free/correct cell")
+            self.server.add_str_to_buffer("Choose free/correct cell\n")
             self.get_coordinates()
         else:
             if self.check_if_this_move_make_winner(x_coord, y_coord):
-                print("You won :)")
+                self.server.add_str_to_buffer("You won :)\n")
                 self.board.counter = 0
         return True
 
@@ -104,7 +109,7 @@ class TicTacToeVsComp(AbstractTicTacToe):
             self.comp_move()
         else:
             if self.check_if_this_move_make_winner(x_coord, y_coord):
-                print("You lost")
+                self.server.add_str_to_buffer("You lost\n")
                 self.board.counter = 0
 
     def pair_of_moves(self):
@@ -120,17 +125,17 @@ class TicTacToeVsComp(AbstractTicTacToe):
     def play_game(self):
         choice = True
         while choice and self.board.counter > 0:
-            print("Game of player: ", self.player.name)
-            print("Press Q to quit")
+            self.server.add_str_to_buffer("Game of player: {}\n".format(self.player.name))
+            self.server.add_str_to_buffer("Press Q to quit\n")
             self.board.show_board()
             choice = self.pair_of_moves()
         if self.board.counter <= 0:
-            print("Game finished, thank you :)")
+            self.board.show_board()
+            self.server.add_str_to_buffer("Game finished, thank you :)\nClick ENTER")
+            self.server.send_buffer()
         else:
             self.board.save_board(self.player.name)
         self.board.show_board()
 
     def start_game(self):
         self.play_game()
-
-
