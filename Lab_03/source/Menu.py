@@ -2,6 +2,7 @@
 # from source import TicTacToe
 import Player
 import TicTacToe
+import GuessVal
 import server
 import random
 import datetime
@@ -30,6 +31,46 @@ class AbstractMenu:
 
 
 class Menu(AbstractMenu):
+    def __init__(self, server):
+        self.menu = ["1. TicTacToe Game\n", "2. GuessValue Game\n", "3. Quit\n"]
+        self.server = server
+        self.choice = 0
+
+    def display(self):
+        buffer = ""
+        for option in self.menu:
+            buffer += option
+        self.server.print_str_to_client(buffer)
+
+    def start(self):
+        self.display()
+        self.get_choice()
+        if not self.do_proper_action():
+            return False
+        else:
+            return self.do_proper_action()
+
+    def get_choice(self):
+        try:
+            self.choice = int(self.server.return_received_data())
+            return self.choice
+        except ValueError:
+            self.server.print_str_to_client("Enter correct value\n")
+            return self.get_choice()
+
+    def init_game(self, mode):
+        pass
+
+    def do_proper_action(self):
+        if self.choice == 1:
+            return TicTacToeMenu(self.server)
+        elif self.choice == 2:
+            return MenuToGuessVal(self.server)
+        elif self.choice == 3:
+            return False
+
+
+class TicTacToeMenu(AbstractMenu):
     def __init__(self, server):
         self.menu = ["1 New game\n", "2 Load game\n", "3 Quit\n"]
         self.choice = 0
@@ -95,17 +136,38 @@ class Menu(AbstractMenu):
 
 
 class MenuToGuessVal(AbstractMenu):
-    def __init__(self):
-        pass
+    def __init__(self, server):
+        self.menu = ["1. Start game\n", "2. Quit\n"]
+        self.choice = 0
+        self.server = server
 
     def start(self):
-        pass
+        self.display()
+        self.get_choice()
+        if not self.do_proper_action():
+            return False
+
+    def display(self):
+        buffer = ""
+        for option in self.menu:
+            buffer += option
+        self.server.print_str_to_client(buffer)
 
     def get_choice(self):
-        pass
+        try:
+            self.choice = int(self.server.return_received_data())
+            return self.choice
+        except ValueError:
+            self.server.print_str_to_client("Enter correct value\n")
+            return self.get_choice()
 
     def init_game(self, mode):
-        pass
+        self.server.add_str_to_buffer("Getting a random value\n")
+        game = GuessVal.GuessVal(self.server)
+        game.start_game()
 
     def do_proper_action(self):
-        pass
+        if self.choice == 1:
+            self.init_game(1)
+        elif self.choice == 2:
+            return False

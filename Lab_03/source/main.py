@@ -1,8 +1,6 @@
 # from source import server
 import server
 
-
-
 if __name__ == "__main__":
     host = 'localhost'
     port = 50001

@@ -43,7 +43,9 @@ class GameServer:
         except KeyboardInterrupt:
             return False
         while True:
+            self.menu = self.menu.start()
             if not self.menu.start():
+                self.menu = Menu.Menu(self)
                 self.connection.close()
                 try:
                     self.connection, client_address = self.sock.accept()
