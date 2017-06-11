@@ -1,4 +1,4 @@
-# TicTacToe
+# TicTacToe and GuessValue
 ## *Client - Server game*
 ## requirements:
 - python 3.5
