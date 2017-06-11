@@ -6,7 +6,7 @@
   - [Parser](Lab_01/Prblm_1)
   - [Word_Counter](Lab_01/Prblm_2)
 2. [Simple calculator](Lab_02)
-3. [TicTacToe_game prototype](Lab_03)
+3. [TicTacToe and GuessVal Game](Lab_03)
 
 *Also in [test_tcpip/Lab_03](../../tree/test_tcpip/Lab_03) I am creating TicTacToe - Client - Server - game*
 
